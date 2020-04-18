@@ -1,0 +1,37 @@
+nav {
+    width: 100%;
+    overflow-y:scroll;
+    background-color: #ffffff;
+}
+ul {
+    display:flex;
+flex-wrap: nowrap;
+list-style: none;
+padding-left: 0px;
+}
+li {
+    padding-right: 5px;
+    display: flex;
+    padding-left: 10px;
+    width: auto;
+    
+}
+.active {
+    color: orange;
+}
+li img {
+    width: 18px;
+    padding-right: 3px;
+}
+fa-icon{
+    padding-right: 3px;
+}
+#all {
+    font-size: 15px;
+}
+section div h2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
